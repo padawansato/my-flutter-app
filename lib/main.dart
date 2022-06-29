@@ -4,6 +4,13 @@ void main() {
   runApp(const MyApp());
 }
 
+// https://youtu.be/VPvVD8t02U8?t=11141
+void test() {
+  final names = ['Foo', 'Bar', 'Buzz'];
+  final length = names.length;
+  print(length);
+}
+
 class MyApp extends StatelessWidget {
   const MyApp({Key? key}) : super(key: key);
 
