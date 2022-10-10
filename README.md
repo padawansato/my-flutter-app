@@ -15,4 +15,5 @@
 ```
 $ docker-compose up -d
 # open `http://0.0.0.0:80/redoc` in the browser.
+$ docker-compose exec -it app pytest
 ```
