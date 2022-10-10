@@ -9,3 +9,10 @@
 - [ ] テキストを要約する Python API サーバの構築
 - [ ] ローカルから API へデータを入出力する
 - [ ] flutter アプリから API への結合テスト
+
+# How to check
+
+```
+$ docker-compose up -d
+# open `http://0.0.0.0:80/redoc` in the browser.
+```
